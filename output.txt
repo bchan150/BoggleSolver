@@ -1,0 +1,44 @@
+Board
+-----
+f    a    i    l    
+z    z    z    z    
+z    z    z    z    
+z    z    z    z    
+
+Board Output: TRUE
+
+Word: fa
+Number of Words: 1
+'f'   'a'    i     l     1     2     0     0    
+ z     z     z     z     0     0     0     0    
+ z     z     z     z     0     0     0     0    
+ z     z     z     z     0     0     0     0    
+
+Word: fail
+Number of Words: 2
+'f'   'a'   'i'   'l'    1     2     3     4    
+ z     z     z     z     0     0     0     0    
+ z     z     z     z     0     0     0     0    
+ z     z     z     z     0     0     0     0    
+
+Word: ai
+Number of Words: 3
+ f    'a'   'i'    l     0     1     2     0    
+ z     z     z     z     0     0     0     0    
+ z     z     z     z     0     0     0     0    
+ z     z     z     z     0     0     0     0    
+
+Word: ail
+Number of Words: 4
+ f    'a'   'i'   'l'    0     1     2     3    
+ z     z     z     z     0     0     0     0    
+ z     z     z     z     0     0     0     0    
+ z     z     z     z     0     0     0     0    
+
+Word: li
+Number of Words: 5
+ f     a    'i'   'l'    0     0     2     1    
+ z     z     z     z     0     0     0     0    
+ z     z     z     z     0     0     0     0    
+ z     z     z     z     0     0     0     0    
+
